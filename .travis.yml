@@ -3,7 +3,5 @@ language: python
 services:
   - docker
 before_install:
-  - docker version
-  - docker pull library/hello-world
-  - docker run hello-world
+  - docker run docker/whalesay cowsay boo
   - docker ps -a
