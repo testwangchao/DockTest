@@ -1,7 +1,9 @@
 sudo: required
-language: python
 services:
   - docker
 before_install:
-  - docker run docker/whalesay cowsay boo
-  - docker ps -a
+  - mkdir mydock
+  - cd mydock
+  - vi Dockerfile
+  - FROM docker/whalesay:latest
+  - cat Dockfile
