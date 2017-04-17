@@ -4,8 +4,4 @@ services:
 before_install:
   - mkdir mydock
   - cd mydock
-  - vim Dockerfile
-  - i
-  - FROM docker/whalesay:latest
-  - :wq
-  - cat Dockfile
+  - pwd
