@@ -1,6 +1,8 @@
 sudo: required
+lanuage: python
 services:
   - docker
 before_install:
   - python dockTest.py
-  - cat /home/travis/build/testwangchao/DockTest/mydockerbuild/Dockerfile
+  - ls
+ #- cat /home/travis/build/testwangchao/DockTest/mydockerbuild/Dockerfile
