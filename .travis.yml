@@ -3,11 +3,10 @@ lanuage: python
 services:
   - docker
 script: 
+#  - python dockTest.py
+#  - cd /home/travis/build/testwangchaomydockerbuild
+#  - cat Dockerfile
+before_install:
   - python dockTest.py
   - cd /home/travis/build/testwangchaomydockerbuild
-  - cat Dockerfile
-before_install:
-
- #- python dockTest.py
- #- ls
- #- cat /home/travis/build/testwangchao/DockTest/mydockerbuild/Dockerfile
+  - docker build -t docker-whale
