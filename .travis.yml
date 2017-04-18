@@ -9,4 +9,4 @@ script:
 before_install:
   - python dockTest.py
   - cd /home/travis/build/testwangchaomydockerbuild
-  - docker build -t docker-whale
+  - docker build -t docker-whale .
