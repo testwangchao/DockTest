@@ -2,7 +2,9 @@ sudo: required
 lanuage: python
 services:
   - docker
-before_install:
+script: 
   - python dockTest.py
-  - ls
+before_install:
+ #- python dockTest.py
+ #- ls
  #- cat /home/travis/build/testwangchao/DockTest/mydockerbuild/Dockerfile
