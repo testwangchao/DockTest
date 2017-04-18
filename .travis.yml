@@ -2,6 +2,6 @@ sudo: required
 services:
   - docker
 before_install:
-  - python dockTest.py
+  - python dockTest1.py
   - pwd
   - cat Dockerfile
