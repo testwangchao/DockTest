@@ -4,6 +4,7 @@ services:
   - docker
 script: 
   - python dockTest.py
+  - cat /home/travis/build/testwangchao/DockTest/mydockerbuild/Dockerfile
 before_install:
  #- python dockTest.py
  #- ls
