@@ -5,7 +5,7 @@ services:
 script: 
   - python dockTest.py
   - cd /home/travis/build/testwangchaomydockerbuild
-  - ls
+  - cat Dockerfile
 before_install:
 
  #- python dockTest.py
